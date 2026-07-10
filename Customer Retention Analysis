@@ -1,0 +1,123 @@
+# Customer Retention Analysis
+
+## Project Overview
+
+This project analyzes customer purchasing behavior using the Online Retail II dataset. The goal is to identify customer retention patterns, repeat purchase behavior, customer churn, and revenue trends through Python, SQL, and Power BI.
+
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- SQL Server
+- Power BI
+
+---
+
+## Dataset
+
+Online Retail II Dataset
+
+After cleaning:
+- Removed missing Customer IDs
+- Removed cancelled invoices
+- Removed negative quantities
+- Removed duplicate records
+- Created Revenue column
+- Created Cohort Month
+- Created Invoice Month
+- Created Cohort Index
+
+---
+
+## Python Analysis
+
+Performed:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Customer Segmentation
+- Cohort Analysis
+- Customer Retention Analysis
+
+---
+
+## SQL Analysis
+
+Created SQL queries for:
+
+- Total Customers
+- Total Orders
+- Total Revenue
+- Repeat Purchase Rate
+- Monthly Active Customers
+- Top Loyal Customers
+- Churn Analysis
+- Revenue by Country
+- Revenue by Month
+- Customer Lifetime Value
+
+---
+
+## Power BI Dashboard
+
+Dashboard contains:
+
+### Page 1
+Executive Overview
+
+- Total Customers
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Revenue Trend
+- Revenue by Country
+
+### Page 2
+Customer Retention
+
+- Cohort Heatmap
+- Monthly Active Customers
+- Retention Rate
+- Repeat Purchase Rate
+
+### Page 3
+Customer Insights
+
+- Top Customers
+- Revenue Distribution
+- Country Filters
+- Monthly Filters
+
+---
+
+## Repository Structure
+
+```text
+dataset/
+images/
+notebooks/
+powerbi/
+sql/
+README.md
+requirements.txt
+```
+
+---
+
+## Key Insights
+
+- Most revenue comes from repeat customers.
+- United Kingdom contributes the largest share of revenue.
+- Customer retention declines gradually across cohorts.
+- A small group of loyal customers generates a significant portion of total revenue.
+
+---
+
+## Author
+
+Navya Sri Kurapati
